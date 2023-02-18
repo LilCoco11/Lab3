@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Lab 3</title>
+</head>
+<body>
+	<label for="name">Enter your name:</label>
+	<input type="text" id="name" name="name"><br><br>
+
+	<label for="subscribe">Subscribe to our newsletter:</label>
+	<input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+	<label for="country">Select your country:</label>
+	<select id="country" name="country">
+	  <option value="usa">USA</option>
+	  <option value="canada">Canada</option>
+	  <option value="mexico">Mexico</option>
+	</select><br><br>
+
+	<label for="birthdate">Enter your birthdate:</label>
+	<input type="date" id="birthdate" name="birthdate"><br><br>
+
+	<label for="age">Select your age:</label>
+	<input type="range" id="age" name="age" min="18" max="100"><br><br>
+</body>
+</html>
